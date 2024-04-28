@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classical & Western Musical Instruments Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            margin: 15px auto;
+            max-width: 800px;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .instrument {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .instrument h3 {
+            margin: 0;
+            padding: 0;
+        }
+        .instrument p {
+            margin-top: 5px;
+        }
+        .feedback-form {
+            margin-top: 20px;
+        }
+        .feedback-form input, .feedback-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .feedback-form button {
+            padding: 10px 20px;
+            background-color: #444;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .feedback-form button:hover {
+            background-color: #555;
+        }
+        @media (max-width: 600px) {
+            nav a {
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Classical & Western Musical Instruments Store</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Instruments</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="instrument">
+            <h3>Violin</h3>
+            <p>Price: $500</p>
+            <p>Description: A beautifully crafted violin, perfect for beginners.</p>
+        </div>
+        <div class="instrument">
+            <h3>Guitar</h3>
+            <p>Price: $300</p>
+            <p>Description: A sturdy acoustic guitar, great for all levels.</p>
+        </div>
+        <!-- Add more instruments as needed -->
+    </div>
+    <div class="feedback-form">
+        <h2>Feedback</h2>
+        <form>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name">
+            
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email">
+            
+            <label for="feedback">Your Feedback:</label>
+            <textarea id="feedback" name="feedback" placeholder="Your Feedback"></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <footer>
+        &copy; 2024 Classical & Western Musical Instruments Store
+    </footer>
+</body>
+</html>
